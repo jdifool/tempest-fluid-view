@@ -1,0 +1,28 @@
+# Dependencies
+/vendor
+composer.lock
+
+# Cache
+/.cache
+/.tempest
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache
+
+# IDE
+.idea
+.vscode
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Coverage
+/coverage
